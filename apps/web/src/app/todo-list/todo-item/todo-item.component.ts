@@ -21,7 +21,6 @@ import { TodoItem } from '../todo-list-service.service';
   ],
 })
 export class TodoItemComponent {
-
   @Input()
   todoItem: TodoItem | undefined;
 
